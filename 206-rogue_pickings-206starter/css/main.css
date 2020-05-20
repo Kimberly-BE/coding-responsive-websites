@@ -225,3 +225,60 @@ footer span {
 	color: #77a466;
 	font-size: 0.875em;
 }
+
+/*Media Queries for Tablet & Desktop*/
+@media only screen and (min-width: 768px) {
+	         /* Tablet styles here */
+					 .bottom-section {
+             justify-content: space-between;
+						 border-top: 1px solid #eee;
+						 padding: 0 0 0 15px;
+						 max-width: 85%;
+					 }
+
+					 .section-one,
+					 .section-two,
+					 .section-three  {
+						 max-width: 33%;
+						 justify-content: space-around;
+						 border-top: none;
+
+						  }
+}
+
+@media only screen and  (min-width: 1200px) {
+	        /* Desktop styles here */
+				header {
+					justify-content: space-between;
+					flex-wrap: nowrap;
+					align-content: flex-start;
+					max-width: 100%;
+					padding: 0;
+
+					 }
+
+					header h1 {
+						text-align: left;
+						align-items: flex-start;
+						flex-wrap: nowrap;
+						justify-content: space-between;
+
+
+				}
+
+          header nav {
+						display: inline-flex;
+						justify-content: space-between;
+						padding: 0 60px;
+
+
+					}
+					header nav ul {
+						     display: inline-flex;
+								 justify-content: space-between;
+								 text-align: right;
+								 padding: 0 10px;
+
+					}
+
+}
